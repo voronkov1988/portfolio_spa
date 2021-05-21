@@ -1,0 +1,9 @@
+.wrapper {
+    background: url('/images/homepage/Ellipse2.png') 5% 70% no-repeat, 
+                url('/images/homepage/Vector9.png') 30% 95% no-repeat,
+                url('/images/homepage/Ellipse1.png') 80% 90% no-repeat,
+                url('/images/homepage/Group8.png') 20% 20% no-repeat,
+                url('/images/homepage/Vector6.png') 100% 1% no-repeat,
+                url('/images/homepage/tri.png') 70% 55% no-repeat,
+                url('/images/homepage/triagle2block.png') 80% 25% no-repeat;
+}

@@ -1,0 +1,16 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    color:#F15A03;
+
+    font-weight: bolder;
+    border-top: 1px solid #F15A03;
+    border-bottom:1px solid #F15A03;
+    padding: .5em 0;
+    margin-bottom: 1em;
+}
+.pagination span {
+    margin-left: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}

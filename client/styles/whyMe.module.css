@@ -1,0 +1,72 @@
+.wrapper {
+    padding: 3em 0;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    color:white;
+    background: url('/images/homepage/vopros1.png') 25% 0 no-repeat,
+                url('/images/homepage/vopros2.png') 80% 10% no-repeat,
+                url('/images/homepage/vopros3.png') 20% 80% no-repeat;
+}
+
+.title {
+    background: url('/images/homepage/title2block.png')center bottom/auto no-repeat;
+}
+.block{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.blockWrapp{
+    width: 90%;
+    padding:5px;
+    border: 1px solid #E45706;
+    margin: 1em 1em;
+    padding: 2em 0;
+    margin-left: 5%;
+}
+
+.oneBlock{
+    height: auto;
+    width: 80%;
+    padding: 2em 1em;
+    border: 3px solid #E45706;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+.oneBlock1{
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 90%;
+    border: 3px solid #E45706;
+    margin-top: 30px;
+}
+
+@media(max-width: 1100px){
+    .block{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    .oneBlock{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .oneBlock1{
+        display: none;
+    }
+}
+@media(max-width: 660px){
+    .block{
+        grid-template-columns: 1fr;
+    }
+    .oneBlock{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .oneBlock1{
+        display: none;
+    }
+}

@@ -1,0 +1,78 @@
+
+.header {
+    position: relative;
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    background: url('/images/homepage/Ellipse2.png') 5% 70% no-repeat, 
+                url('/images/homepage/Vector9.png') 30% 95% no-repeat,
+                url('/images/homepage/Ellipse1.png') 80% 90% no-repeat,
+                url('/images/homepage/Group8.png') 20% 20% no-repeat,
+                url('/images/homepage/Vector6.png') 100% 1% no-repeat;
+}
+
+.button {
+    display: flex;
+    width: 300px;
+    height: 67px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-family: Menlo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 4px solid #FF5C00;
+    cursor: pointer;
+}
+
+.header h1 {
+    display: inline-block;
+    text-align: center;
+    margin-top: 15%;
+    width: 100%;
+    font-family: Menlo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5em;
+    line-height: 116px;
+    color: #FFFFFF;
+}
+.info{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    padding: 2em 0;
+    justify-content: space-between;
+    margin-bottom: -15px;
+}
+.email, .phone {
+    display: flex;
+}
+
+.email span, .phone span {
+    font-family: Menlo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+@media(max-width: 560px){
+    .info{
+        display: inline-block;
+    }
+    .phone, .email{
+        margin-top: 1em;
+        align-items: center;
+        justify-content: center;
+    }
+    .email{
+        margin-top: -2em;
+    }
+}

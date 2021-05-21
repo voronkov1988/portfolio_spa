@@ -1,0 +1,88 @@
+.wrapper {
+    width: 97%;
+    height: auto;
+    margin-left: 1.5%;
+    padding: 2em 4em;
+    background: url('/images/homepage/kub5.png') 20% 0% no-repeat,
+                url('/images/homepage/triagle5.png') 30% 80% no-repeat,
+                url('/images/homepage/kub2block.png') 90% 80% no-repeat;
+}
+.wrapper h2 {
+    background: url('/images/homepage/line4block.png')bottom center no-repeat;
+}
+.filter {
+    text-align: center;
+}
+.filter span {
+    padding: .3em 1em;
+    border: 1px solid #E45706;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+    transition: .3s;
+}
+.filter span:hover {
+    background-color: #E45706;
+    transition: .3s;
+}
+.items{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.button{
+    display: block;
+    margin-left: 68%;
+    padding: .5em 5em .5em .5em;
+    width: 30%;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid #E45706;
+    background: url('/images/homepage/strelka.png') 90% 50% no-repeat;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #E45706;
+    transition: 0.2s;
+    border: 2px solid white;
+}
+.one{
+    padding: 2em 2em;
+    color: white;
+}
+
+.one img {
+    max-width: 100%;
+    height: auto;
+}
+.one h3 {
+    font-family: Menlo;
+}
+@media(max-width:950px){
+    .items {
+        display:block;
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+    }
+    .one h4{
+        text-align: left;
+    }
+}
+@media(max-width:1025px){
+    .button{
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+@media(max-width:700px){
+    .filter span {
+        display: block;
+        width: 98%;
+        margin-left: 1%;
+    }
+    .items{
+        width: 120%;
+        margin-left: -10%;
+    }
+}

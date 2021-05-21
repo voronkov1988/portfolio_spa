@@ -1,0 +1,89 @@
+.wrapper {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    color: white;
+    font-family: Menlo;
+    font-size: 1.3em;
+}
+
+.article{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    padding: 1em 0 0 1em;
+    margin-left: 5%;
+    /* box-shadow: 1px 1px 15px gray; */
+    margin-top: .5em;
+}
+.left {
+    width: 40%;
+}
+.right {
+    width: 55%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.6);
+}
+.right p {
+    padding: 1em 1em 0 0;
+}
+.left img {
+    max-width: 100%;
+}
+.left span {
+    display: block;
+    text-align: right;
+    font-size: 18px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.4);
+}
+.title, .time{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 29px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+.title {
+    cursor: pointer;
+    line-height: 0;
+    margin-bottom: 1em;
+}
+.title:hover {
+    color: #F15A03;
+}
+.time {
+    font-size: 15px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+
+.pagination {
+    width: 100%;
+    margin: 2em 0 2em 0;
+    padding: 1em 0 1em 0;
+    border-bottom: 1px solid #F15A03;
+    border-top: 1px solid #F15A03;
+}
+.paginationBlock{
+    display: flex;
+    justify-content: center;
+}
+.page{
+    margin-left: .7em;
+    cursor: pointer;
+    color: #F15A03;
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: Menlo;
+}
+.page:hover{
+    color: white;
+}

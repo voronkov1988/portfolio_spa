@@ -1,0 +1,118 @@
+.meWrapper {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    width: 82%;
+    margin-left: 9%;
+    margin-bottom: 5em;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.6em;
+    color: #FFFFFF;
+}
+.left{
+    padding-right: 20px;
+    width: 100%;
+}
+.universityWrapper, .experienceWrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.courses, .experience {
+    width: 70%;
+    padding: 0 15px 0 0;
+}
+.courses p, .experience p {
+    font-size: 1.6em;
+    color: #F15A03;
+    /* margin-bottom: 10px; */
+}
+.courses p span, .experience p span {
+    display: block;
+    font-size: .6em;
+    color: gray;
+}
+.courses p span:first-child, .experience p span:first-child {
+    margin-top: 1em;
+}
+.description {
+    width: 100%;
+}
+.description ul {
+    list-style: none;
+    height: auto;
+    background: url('/images/line1.png') repeat-y;
+}
+.description ul li{
+    background: url('/images/point.png') 6px 6px no-repeat;
+    padding: 0 0 0 3em;
+    margin-left: -50px;
+    margin-bottom: 10px;
+    font-family: Menlo;
+    font-size: 1.1em;
+    color: silver;
+    line-height: 1.4em;
+}
+.link {
+    display: block;
+    color: #F15A03;
+}
+.left h4 {
+    font-size: 2em;
+    font-family: Menlo;
+    text-shadow: 1px 1px 5px #F15A03;
+}
+
+
+/* right */
+.right {
+    display: block;
+    padding-left: 20px;
+}
+.title {
+    display: block;
+    text-align: right;
+    color: #ff5c00;
+    font-size: 1.2em;
+}
+.title h2 {
+    text-align: right;
+    line-height: 20px;
+    font-size: 2.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+}
+.img{
+    width: 100%;
+    box-shadow: 3px 3px 15px gray;
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+.social img {
+    width: 7%;
+    cursor: pointer;
+}
+.rangeBlock {
+    margin-top: 4em;
+}
+.oneRange {
+    display: flex;
+    height: 3em;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+.oneRange h5 {
+    font-size: 1.1em;
+}
+
+.progress {
+    width: 60%;
+    height: 8px;
+    background-color: #fff;
+    justify-content: right;
+}
